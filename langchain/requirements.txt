@@ -1,0 +1,24 @@
+# LangChain Examples Requirements
+# Install with: pip install -r requirements.txt
+
+# Core LangChain packages
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+
+# Vector store and embeddings
+chromadb>=0.4.0
+
+# Document processing
+pypdf>=3.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Type checking and validation
+pydantic>=2.0.0
+
+# Optional: For enhanced functionality
+# tiktoken>=0.5.0  # Token counting
+# faiss-cpu>=1.7.4  # Alternative vector store
+# sentence-transformers>=2.2.0  # Alternative embeddings
